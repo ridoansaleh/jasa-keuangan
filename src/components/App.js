@@ -23,6 +23,8 @@ class App extends Component {
   render() {
     const green = {borderBottom: '4px solid #42b549'};
     const grey = {borderBottom: '4px solid #c7c7c7'};
+    const greenColor = {color:'#42b549'};
+    const greyColor =  {color:'#c7c7c7'};
     return (
       <div className="container">
         <p className="app-title">Ajukan Aplikasi Produk Keuangan</p>
@@ -33,7 +35,7 @@ class App extends Component {
               </div>
               <p className="box-title">Mitra Toppers</p>
               <p className="box-content">Mitra Penyedia Pinjaman Merchant Tokopedia</p>
-              <p className="box-detail">Lihat Detail Produk</p>
+              <p className="box-detail" style={this.state.show===1 ? greenColor:greyColor}>Lihat Detail Produk</p>
             </div>
             <div className="box" style={this.state.show===2 ? green : grey} onClick={(e) => this.changeProductDetail(e, 2)}>
               <div>
@@ -41,7 +43,7 @@ class App extends Component {
               </div>
               <p className="box-title">Kartu Kredit</p>
               <p className="box-content">Ajukan Kartu Kredit yang sesuai dengan kebutuhan</p>
-              <p className="box-detail">Lihat Detail Produk</p>
+              <p className="box-detail" style={this.state.show===2 ? greenColor:greyColor}>Lihat Detail Produk</p>
             </div>
             <div className="box" style={this.state.show===3 ? green : grey} onClick={(e) => this.changeProductDetail(e, 3)}>
               <div>
@@ -49,7 +51,7 @@ class App extends Component {
               </div>
               <p className="box-title">Pinjaman Online</p>
               <p className="box-content">Ajukan Pinjaman tanpa Agunan yang Sesuai</p>
-              <p className="box-detail">Lihat Detail Produk</p>
+              <p className="box-detail" style={this.state.show===3 ? greenColor:greyColor}>Lihat Detail Produk</p>
             </div>
             <div className="box" style={this.state.show===4 ? green : grey} onClick={(e) => this.changeProductDetail(e, 4)}>
               <div>
@@ -57,7 +59,7 @@ class App extends Component {
               </div>
               <p className="box-title">Asuransi</p>
               <p className="box-content">Ajukan Asuransi yang sesuai dengan kebutuhan</p>
-              <p className="box-detail">Lihat Detail Produk</p>
+              <p className="box-detail" style={this.state.show===4 ? greenColor:greyColor}>Lihat Detail Produk</p>
             </div>
         </div>
 
