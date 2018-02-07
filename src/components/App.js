@@ -21,15 +21,15 @@ class App extends Component {
 
 
   render() {
-    const green = {borderBottom: '4px solid #42b549'};
-    const grey = {borderBottom: '4px solid #c7c7c7'};
+    const greenBorder = {borderBottom: '4px solid #42b549'};
+    const greyBorder = {borderBottom: '4px solid #c7c7c7'};
     const greenColor = {color:'#42b549'};
     const greyColor =  {color:'#c7c7c7'};
     return (
       <div className="container">
         <p className="app-title">Ajukan Aplikasi Produk Keuangan</p>
         <div className="row justify-content-center">
-            <div className="box" style={this.state.show===1 ? green : grey} onClick={(e) => this.changeProductDetail(e, 1)}>
+            <div className="box" style={this.state.show===1 ? greenBorder : greyBorder} onClick={(e) => this.changeProductDetail(e, 1)}>
               <div>
                 <i className="wrapper-icon box-icon mitratopper-icon"></i>
               </div>
@@ -37,7 +37,7 @@ class App extends Component {
               <p className="box-content">Mitra Penyedia Pinjaman Merchant Tokopedia</p>
               <p className="box-detail" style={this.state.show===1 ? greenColor:greyColor}>Lihat Detail Produk</p>
             </div>
-            <div className="box" style={this.state.show===2 ? green : grey} onClick={(e) => this.changeProductDetail(e, 2)}>
+            <div className="box" style={this.state.show===2 ? greenBorder : greyBorder} onClick={(e) => this.changeProductDetail(e, 2)}>
               <div>
                 <i className="wrapper-icon box-icon kartukredit-icon"></i>
               </div>
@@ -45,7 +45,7 @@ class App extends Component {
               <p className="box-content">Ajukan Kartu Kredit yang sesuai dengan kebutuhan</p>
               <p className="box-detail" style={this.state.show===2 ? greenColor:greyColor}>Lihat Detail Produk</p>
             </div>
-            <div className="box" style={this.state.show===3 ? green : grey} onClick={(e) => this.changeProductDetail(e, 3)}>
+            <div className="box" style={this.state.show===3 ? greenBorder : greyBorder} onClick={(e) => this.changeProductDetail(e, 3)}>
               <div>
                 <i className="wrapper-icon box-icon pinjamanonline-icon"></i>
               </div>
@@ -53,7 +53,7 @@ class App extends Component {
               <p className="box-content">Ajukan Pinjaman tanpa Agunan yang Sesuai</p>
               <p className="box-detail" style={this.state.show===3 ? greenColor:greyColor}>Lihat Detail Produk</p>
             </div>
-            <div className="box" style={this.state.show===4 ? green : grey} onClick={(e) => this.changeProductDetail(e, 4)}>
+            <div className="box" style={this.state.show===4 ? greenBorder : greyBorder} onClick={(e) => this.changeProductDetail(e, 4)}>
               <div>
                 <i className="wrapper-icon box-icon asuransi-icon"></i>
               </div>
