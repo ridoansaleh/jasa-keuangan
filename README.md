@@ -1,6 +1,6 @@
 # Jasa Keuangan
 
-### Built using these tools :
+### Halaman replika keuangan Tokopedia ini dibangun menggunakan :
 
 1. ReactJs v16.2.0
 
