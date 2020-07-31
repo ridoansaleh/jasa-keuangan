@@ -1,168 +1,168 @@
 body {
-    background-color: #f8f8f8;
+  background-color: #f8f8f8;
 }
 
 .container {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .row {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .app-title {
-    font-size: 24px;
-    font-weight: 500;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 450px) {
-    .box {
-        width: 95%;
-    }
+  .box {
+    width: 95%;
+  }
 }
 
-@media (min-width:451px) and (max-width:990px) {
-    .box {
-        width: 45%;
-    }
+@media (min-width: 451px) and (max-width: 990px) {
+  .box {
+    width: 45%;
+  }
 }
 
 @media only screen and (min-width: 991px) {
-    .box {
-        width: 23%;
-    }
+  .box {
+    width: 23%;
+  }
 }
 
 .box {
-    height: 350px;
-    padding: 40px;
-    margin: 7px;
-    background-color: #FFFFFF;
-    border-radius: 6px;
-    border-bottom: solid 4px #c7c7c7;
-    text-align: center;
-    box-shadow: 0 0 15px 0 #dfdfdf;
-    -webkit-transition: border-bottom .3s,-webkit-transform .3s; 
-    transition: border-bottom .3s,-webkit-transform .3s; 
-    transition: transform .3s,border-bottom .3s;
-    transition: transform .3s,border-bottom .3s,-webkit-transform .3s;
-    cursor: pointer;
+  height: 350px;
+  padding: 40px;
+  margin: 7px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border-bottom: solid 4px #c7c7c7;
+  text-align: center;
+  box-shadow: 0 0 15px 0 #dfdfdf;
+  -webkit-transition: border-bottom 0.3s, -webkit-transform 0.3s;
+  transition: border-bottom 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, border-bottom 0.3s;
+  transition: transform 0.3s, border-bottom 0.3s, -webkit-transform 0.3s;
+  cursor: pointer;
 }
 
 .box:hover {
-    border-bottom: 4px solid #42b549;
-    transform: scale(1.05, 1.02);
-    -moz-transform: scale(1.05, 1.02);
-    -ms-transform: scale(1.05, 1.02);
-    -webkit-transform: scale(1.05, 1.02);
-    -o-transform: scale(1.05, 1.02);
+  border-bottom: 4px solid #42b549;
+  transform: scale(1.05, 1.02);
+  -moz-transform: scale(1.05, 1.02);
+  -ms-transform: scale(1.05, 1.02);
+  -webkit-transform: scale(1.05, 1.02);
+  -o-transform: scale(1.05, 1.02);
 }
 
 .product-detail {
-    background-color: #FFFFFF;
-    padding: 40px 50px;
-    border-radius: 6px 6px 0 0;
-    border-bottom: solid 1px #e0e0e0;
-    margin-bottom: 100px;
+  background-color: #ffffff;
+  padding: 40px 50px;
+  border-radius: 6px 6px 0 0;
+  border-bottom: solid 1px #e0e0e0;
+  margin-bottom: 100px;
 }
 
 .wrapper-icon {
-    display: block;
-    height: 125px;
-    width: 125px;
-    margin: 0 auto;
-    border-radius: 50%;
-    background: #fff;
-    border: 15px solid #f8f8f8;
+  display: block;
+  height: 125px;
+  width: 125px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: #fff;
+  border: 15px solid #f8f8f8;
 }
 
 .box-icon {
-    background-size: 100px;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .mitratopper-icon {
-    background-image: url(./images/mitratoppers.png);
+  background-image: url(./images/mitratoppers.png);
 }
 
 .kartukredit-icon {
-    background-image: url(./images/kartukredit.png);
+  background-image: url(./images/kartukredit.png);
 }
 
 .pinjamanonline-icon {
-    background-image: url(./images/personalloan.png);
+  background-image: url(./images/personalloan.png);
 }
 
 .asuransi-icon {
-    background-image: url(./images/asuransi.png);
+  background-image: url(./images/asuransi.png);
 }
 
 .box-title {
-    font-size: 16px;
-    margin-bottom: 1.5rem;
-    margin-top: 2rem;
+  font-size: 16px;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
 }
 
 .box-content {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .box-detail {
-    font-size: 12px;
-    color: rgba(0,0,0,.54);
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.54);
 }
 
 .box-detail:hover {
-    color: #42b549;
+  color: #42b549;
 }
 
 .left-detail-block {
-    border: 1px solid #e0e0e0;
-    border-radius: 6px;
-    padding: 10px 33px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 10px 33px;
 }
 
 @media only screen and (max-width: 750px) {
-    .left-detail-block {
-        margin-top: 15px;
-    }
+  .left-detail-block {
+    margin-top: 15px;
+  }
 }
 
 h3.product-detail-title {
-    font-size: 24px;
-    font-weight: 500px;
+  font-size: 24px;
+  font-weight: 500px;
 }
 
 p.product-detail-content {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .btn-product-detail {
-    font-size: 11px;
-    padding: 7px 50px;
+  font-size: 11px;
+  padding: 7px 50px;
 }
 
 h4 {
-    font-size: 19px;
-    font-weight: 500;
+  font-size: 19px;
+  font-weight: 500;
 }
 
 ul {
-    padding: 0;
-    padding-left: 20px;
+  padding: 0;
+  padding-left: 20px;
 }
 
 li {
-    list-style: none;
-    text-align: left;
-    font-size: 14px;
+  list-style: none;
+  text-align: left;
+  font-size: 14px;
 }
 
 li:before {
-    position: absolute;
-    left: 33px;
-    font-family: FontAwesome;
-    content: "\f00c";
-    color: #42b549;
+  position: absolute;
+  left: 33px;
+  font-family: FontAwesome;
+  content: "\f00c";
+  color: #42b549;
 }
